@@ -47,9 +47,9 @@
 
 .section-3{
 
-    height: 200vh;
+    height: 400vh;
     position: relative;
-    margin-top: 110px;
+    margin-top: 6pc;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 60px;
@@ -73,9 +73,17 @@
 .card{
     width: 450px;
     height: 510px;
-    box-shadow: 0 0 30px 6px gray;
+    box-shadow: 0 0 11px -4px gray;
     border-radius: 8px;
     position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.card:hover{
+    box-shadow: 0 0 45px -4px gray;
+    cursor: pointer;
+    transform: scale(1.10);
 }
 
 .card-content{
@@ -92,3 +100,4 @@
 .card-about{
     width: 400px;
 }
+

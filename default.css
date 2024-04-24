@@ -4,3 +4,8 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+::selection {
+    color: rgb(255, 255, 255);
+    background: #000;
+  }
